@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 578px;
+  width: 369px;
+  overflow: hidden;
+
+  border: 1px solid #ccc;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 461px;
+  object-fit: cover;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+  width: 100%;
+  gap: 8px;
+  font-size: 14px;
+}

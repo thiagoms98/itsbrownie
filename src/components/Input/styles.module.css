@@ -1,0 +1,37 @@
+.inputContainer {
+  background-color: inherit;
+  padding: 9px;
+  border: 1px solid #bfbaba;
+  border-radius: 5px;
+  width: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 12px;
+  color: #bfbaba;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button {
+  padding: 0;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #bfbaba;
+  font-size: 12px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+button:hover {
+  opacity: 0.7;
+}

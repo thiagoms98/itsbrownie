@@ -28,3 +28,11 @@ a {
   display: flex;
   align-items: center;
 }
+
+a:hover {
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
